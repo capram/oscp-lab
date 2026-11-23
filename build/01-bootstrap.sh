@@ -94,35 +94,20 @@ sudo apt autoclean -y
 echo
 echo "[+] Creating OSCP workspace"
 
-mkdir -p ~/OSCP/{
-
-Active,
-
-AD,
-
-Linux,
-
-Windows,
-
-Scans,
-
-Loot,
-
-Exploits,
-
-Tools,
-
-Reports,
-
-Screenshots,
-
-Wordlists,
-
-Notes,
-
-venvs
-
-}
+mkdir -p \
+~/OSCP/Active \
+~/OSCP/AD \
+~/OSCP/Linux \
+~/OSCP/Windows \
+~/OSCP/Scans \
+~/OSCP/Loot \
+~/OSCP/Exploits \
+~/OSCP/Tools \
+~/OSCP/Reports \
+~/OSCP/Screenshots \
+~/OSCP/Wordlists \
+~/OSCP/Notes \
+~/OSCP/venvs
 
 ###############################################################################
 # Install Core Packages
